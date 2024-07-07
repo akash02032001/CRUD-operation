@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {
+      "ename": "AKASH",
+      "esalary": "2.5LPA",
+      "ecompany": "TCS",
+      "id": 1
+    },
+    {
+      "ename": "ASIK",
+      "esalary": "2.5LPA",
+      "ecompany": "ZOHO",
+      "id": 2
+    },
+    {
+      "ename": "GOBIKA",
+      "esalary": "800000",
+      "ecompany": "TCS",
+      "id": 4
+    }
+  ]
+}

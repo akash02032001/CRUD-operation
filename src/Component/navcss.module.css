@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+#main>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    
+}
+#main>a:hover{
+    color: rgb(46, 184, 99);
+    
+}
+.form{
+    padding: 50px;
+    /* background-color: black; */
+    height: 300px;
+    width: 400px;
+    color: white;
+    border-radius: 20px;
+    /* border: 10px dotted white; */
+    box-shadow: 0px 0px 30px black;
+}
+#form{
+     height: 90vh;
+     width: 100%;
+     /* background:radial-gradient(white,black); */
+     background: url(https://images.unsplash.com/photo-1466853817435-05b43fe45b39?q=80&w=1999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+}
+.form>input{
+    margin: 15px 0px 15px 15px;
+    padding: 3px ;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+}
+.form>label{
+    font-weight: 700;
+    font-size: 18px;
+}
+.form>button{
+    padding: 10px;
+    margin: 20px 0px 0px 29% ;
+}
+.form>button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px white;
+}
+#for{
+    height: 90vh;
+    width: 100%;
+    /* background:radial-gradient(white,black); */
+    background: url(https://images.unsplash.com/photo-1466853817435-05b43fe45b39?q=80&w=1999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+}
+#for>.formm{
+    padding: 50px;
+    /* background-color: black; */
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 20px;
+    /* border: 10px dotted white; */
+    box-shadow: 0px 0px 30px black;
+}
+td>button{
+    padding: 5px;
+    /* margin: 20px 0px 0px 29% ; */
+}
+td>button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px white;
+}
+td{
+    padding-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
